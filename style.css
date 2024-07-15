@@ -23,7 +23,7 @@ body, html {
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-63%, -120%);
     z-index: 2;
@@ -31,4 +31,19 @@ body, html {
     padding: 20px;
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Nav bar */
+.nav {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+.navtext {
+    position: absolute;
+    top: 2.15%;
+    font-size: larger;
+}
+
+.navtext:hover {
+    color: blue;
 }
