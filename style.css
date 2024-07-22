@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body, html {
     height: 100%;
@@ -87,6 +87,42 @@ body, html {
 
 .inter-download-link:hover {
     color: #dce3de;
+}
+
+.package {
+    border: 1px solid grey;
+    background: #fefefe;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 0.8;
+    width: 25%;
+}
+
+.raleway-download-link {
+    text-indent: 5px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;  
+    font-weight: 200;
+    font-style: normal;
+    color:rgb(171, 219, 235);
+}
+
+.raleway-download-link:hover {
+    color: #53cb75;
+}
+
+.raleway-download-link:visited {
+    color: rgb(165, 2, 165);
+}
+
+.raleway-text {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;  
+    font-weight: 200;
+    font-style: italic;
+    text-indent: 5px;
 }
 
 hr {
